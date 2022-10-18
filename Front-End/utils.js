@@ -22,7 +22,7 @@ export async function initContract() {
       "getGreeting",
       "didParticipate",
       "getAllPrompts",
-      "getVotes",
+      "viewVotes",
       "getUrl",
       "getCandidatePair",
       ,
