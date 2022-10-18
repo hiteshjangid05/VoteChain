@@ -47,7 +47,7 @@ export function getAllPrompts():string[]{
 
 
 
-export function getVotes(prompt:string):i32[]{
+export function viewVotes(prompt:string):i32[]{
   if(VoteArray.contains(prompt)){
     return VoteArray.getSome(prompt)
   }else{
